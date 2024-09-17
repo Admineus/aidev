@@ -42,7 +42,7 @@ endif
 CXX        = g++
 CUDA       = /usr/local/cuda-8.0
 CXXCUDA    = /usr/bin/g++-4.8
-NVCC       = $(CUDA)/bin/nvcc
+NVCC       = /opt/conda/bin/nvcc
 
 ifdef gpu
 
